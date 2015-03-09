@@ -1,0 +1,6 @@
+2015-03-03 23:51:20 INFO  main [mitsuba.cpp:256] Mitsuba version 0.5.0 (Windows, 32 bit), Copyright (c) 2014 Wenzel Jakob
+2015-03-03 23:51:20 INFO  main [mitsuba.cpp:356] Parsing scene description from "particleTemplate.xml" ..
+2015-03-03 23:51:20 INFO  main [PluginManager] Loading plugin "plugins\path.dll" ..
+2015-03-03 23:51:20 INFO  main [PluginManager] Loading plugin "plugins\diffuse.dll" ..
+2015-03-03 23:51:20 INFO  main [scenehandler.cpp:675] In file "D:\Users\Gago\Downloads\CS 5643\CS 5643\a1\src\frames\particleTemplate.xml" (near line 20): Parsing included file "(null)" ..
+2015-03-03 23:51:20 INFO  main [PluginManager] Loading plugin "plugins\sphere.dll" ..
