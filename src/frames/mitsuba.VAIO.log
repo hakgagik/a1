@@ -1,0 +1,43 @@
+2015-03-02 20:42:25 INFO  main [mitsuba.cpp:256] Mitsuba version 0.5.0 (Windows, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2015-03-02 20:42:25 INFO  main [mitsuba.cpp:356] Parsing scene description from "particleTemplate.xml" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\path.dll" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\diffuse.dll" ..
+2015-03-02 20:42:25 INFO  main [scenehandler.cpp:675] In file "C:\Users\Gago\Desktop\HW Projects\CS 5643\A1\src\frames\particleTemplate.xml" (near line 20): Parsing included file "cube-drop.xml" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\sphere.dll" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\checkerboard.dll" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\twosided.dll" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\cube.dll" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\spot.dll" ..
+2015-03-02 20:42:25 INFO  main [PluginManager] Loading plugin "plugins\point.dll" ..
+2015-03-02 20:42:26 INFO  main [PluginManager] Loading plugin "plugins\ldrfilm.dll" ..
+2015-03-02 20:42:26 INFO  main [PluginManager] Loading plugin "plugins\gaussian.dll" ..
+2015-03-02 20:42:26 INFO  main [PluginManager] Loading plugin "plugins\halton.dll" ..
+2015-03-02 20:42:26 INFO  main [PluginManager] Loading plugin "plugins\perspective.dll" ..
+2015-03-02 20:42:26 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (524 primitives) ..
+2015-03-02 20:42:26 INFO  ren0 [KDTreeBase] Finished -- took 1 ms.
+2015-03-02 20:42:26 INFO  ren0 [SamplingIntegrator] Starting render job (640x480, 32 samples, 4 cores, SSE2 enabled) ..
+2015-03-02 20:42:52 INFO  ren0 [RenderJob] Render time: 26.0880s
+2015-03-02 20:42:52 INFO  ren0 [LDRFilm] Writing image to "cube-drop.png" ..
+2015-03-02 20:42:52 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins\checkerboard.dll [Checkerboard texture]
+    -  plugins\cube.dll [Cube intersection primitive]
+    -  plugins\diffuse.dll [Smooth diffuse BRDF]
+    -  plugins\gaussian.dll [Gaussian reconstruction filter]
+    -  plugins\halton.dll [Halton QMC sampler]
+    -  plugins\ldrfilm.dll [Low dynamic range film]
+    -  plugins\path.dll [MI path tracer]
+    -  plugins\perspective.dll [Perspective camera]
+    -  plugins\point.dll [Point emitter]
+    -  plugins\sphere.dll [Sphere intersection primitive]
+    -  plugins\spot.dll [Spot light]
+    -  plugins\twosided.dll [Two-sided BRDF adapter]
+
+  * General :
+    -  Normal rays traced : 59.018 M
+    -  Shadow rays traced : 49.188 M
+
+  * Path tracer :
+    -  Average path length : 6.00 (59.02 M / 9.83 M)
+------------------------------------------------------------
