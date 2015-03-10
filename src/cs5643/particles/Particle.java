@@ -59,12 +59,6 @@ public class Particle
 	/** Cell this particle belongs to */
 	public int[] cell;
 
-	/** Distance to current particle, stored so we don't have to calculate it again.
-	 *  This is very hacky and probably bad coding practice o.o
-	 */
-	public double r;
-	public Vector3d rHat;
-
 	/** Lambda of each particle */
 	public double lambda;
 
@@ -82,7 +76,6 @@ public class Particle
 	    c = new float[4];
 	    c[0] = 0; c[1] = 1; c[2] = 1; c[3] = 1;
 	    cell = new int[3];
-	    rHat = new Vector3d();
         thread = new ParticleThread(this);
     }
 
